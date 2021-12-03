@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-with open("test.txt") as f:
+with open("input.txt") as f:
     data = f.read().splitlines()
 
 data = list(map(int, data))
